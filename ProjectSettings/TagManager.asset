@@ -15,8 +15,8 @@ TagManager:
   - 
   - Ground
   - PostProcessing
-  - 
-  - 
+  - LocalPlayer
+  - Gun
   - 
   - 
   - 

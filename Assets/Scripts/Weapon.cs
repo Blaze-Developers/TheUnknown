@@ -10,8 +10,11 @@ namespace  Com.Coding.MultiplayerFPS
 
         public Gun[] loadout; 
         public Transform weaponParent;
+        public GameObject bulletholePrefab;
+        public LayerMask canBeShot;
         private int currentIndex;
         private GameObject currentWeapon;
+
 
         #endregion
 
@@ -29,6 +32,11 @@ namespace  Com.Coding.MultiplayerFPS
             if(currentWeapon != null)
             {
                 Aim(Input.GetMouseButton(1));
+
+                if(Input.GetMouseButtonDown(0))
+                {
+                    Shoot();
+                }
             }
         }
 
@@ -66,6 +74,18 @@ namespace  Com.Coding.MultiplayerFPS
                 t_anchor.position = Vector3.Lerp(t_anchor.position, t_state_hip.position, Time.deltaTime * loadout[currentIndex].aimSpeed);
 
             }
+        }
+
+        void Shoot()
+        {
+            Transform t_spawn = transform.Find("Cameras/NormalCamera");
+            RaycastHit t_hit = new RaycastHit();
+            if( Physics.Raycast(t_spawn.position, t_spawn.forward, out t_hit, 1000f, canBeShot) )
+            {
+                GameObject t_newHole = Instantiate(bulletholePrefab, t_hit.point + t_hit.normal * 0.001f, Quaternion.identity) as GameObject;
+                t_newHole.transform.LookAt(t_hit.point + t_hit.normal);
+                Destroy(t_newHole, 5f);
+            } 
         }
 
         #endregion
