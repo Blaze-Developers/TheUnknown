@@ -1,21 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 namespace Com.Coding.MultiplayerFPS
 {
     public class Manager : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
+        public string player_prefab;
+        public Transform spawn_point;
 
+        private void Start()
+        {
+            Spawn();
         }
 
-        // Update is called once per frame
-        void Update()
+        public void Spawn()
         {
-
+            PhotonNetwork.Instantiate(player_prefab, spawn_point.position, spawn_point.rotation);
         }
     }
 }

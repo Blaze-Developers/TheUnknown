@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 namespace Com.Coding.MultiplayerFPS
 {
-    public class Motion : MonoBehaviour
+    public class Motion : MonoBehaviourPunCallbacks
     {
         #region Variables
 
@@ -39,6 +40,8 @@ namespace Com.Coding.MultiplayerFPS
 
         private void Update()
         {
+            if(!photonView.IsMine) return;
+            {}
             //Axles
             float t_hmove = Input.GetAxisRaw("Horizontal");
             float t_vmove = Input.GetAxisRaw("Vertical");
@@ -79,6 +82,7 @@ namespace Com.Coding.MultiplayerFPS
 
         void FixedUpdate()
         {
+            if(!photonView.IsMine) return;
             //Axles
             float t_hmove = Input.GetAxisRaw("Horizontal");
             float t_vmove = Input.GetAxisRaw("Vertical");
