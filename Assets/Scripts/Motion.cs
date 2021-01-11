@@ -33,7 +33,6 @@ namespace Com.Coding.MultiplayerFPS
         private void Start()
         {
             baseFOV = normalCam.fieldOfView;
-            Camera.main.enabled = false;
             rig = GetComponent<Rigidbody>();
             weaponParentOrigin = weaponParent.localPosition;
         }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10621,6 +10621,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 293528855490091647, guid: 5f2153facfc032c47aa433a94251c213,
+        type: 3}
+      propertyPath: viewIdField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2638249045748558223, guid: 5f2153facfc032c47aa433a94251c213,
+        type: 3}
+      propertyPath: mainCam
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7293004366589612134, guid: 5f2153facfc032c47aa433a94251c213,
         type: 3}
       propertyPath: m_RootOrder
@@ -10628,33 +10638,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7293004366589612134, guid: 5f2153facfc032c47aa433a94251c213,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7293004366589612134, guid: 5f2153facfc032c47aa433a94251c213,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7293004366589612134, guid: 5f2153facfc032c47aa433a94251c213,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7293004366589612134, guid: 5f2153facfc032c47aa433a94251c213,
-        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 135
+      value: 113.89
       objectReference: {fileID: 0}
     - target: {fileID: 7293004366589612134, guid: 5f2153facfc032c47aa433a94251c213,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21
+      value: 21.08
       objectReference: {fileID: 0}
     - target: {fileID: 7293004366589612134, guid: 5f2153facfc032c47aa433a94251c213,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37
+      value: 52.81
       objectReference: {fileID: 0}
     - target: {fileID: 7293004366589612134, guid: 5f2153facfc032c47aa433a94251c213,
         type: 3}
@@ -18938,7 +18933,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19172
+  m_Name: pb_Mesh38022
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28206,7 +28201,7 @@ GameObject:
   - component: {fileID: 1525261267}
   - component: {fileID: 1525261266}
   - component: {fileID: 1525261265}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground_Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
