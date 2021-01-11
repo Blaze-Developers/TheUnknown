@@ -173,7 +173,28 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &422379837
+--- !u!114 &1315102266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7961841290348464860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0cb2bc271e6964f8b6a30af234ee34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 800
+  sprintModifier: 2
+  jumpForce: 650
+  normalCam: {fileID: 327507168}
+  groundDetector: {fileID: 21160855}
+  ground:
+    serializedVersion: 2
+    m_Bits: 256
+  weaponParent: {fileID: 5132646629558786017}
+--- !u!114 &5747359922322911788
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,72 +209,9 @@ MonoBehaviour:
   player: {fileID: 7293004366589612134}
   cams: {fileID: 327507166}
   weapon: {fileID: 5132646629558786017}
-  xSensivity: 100
-  ySensivity: 100
+  xSensivity: 75
+  ySensivity: 75
   maxAngle: 60
---- !u!114 &293528855490091647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7961841290348464860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObservedComponentsFoldoutOpen: 1
-  Group: 0
-  prefixField: -1
-  observableSearch: 2
-  Synchronization: 2
-  OwnershipTransfer: 0
-  ObservedComponents: []
-  viewIdField: 0
-  InstantiationId: 0
-  isRuntimeInstantiated: 0
---- !u!114 &2122466455005869521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7961841290348464860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a4364d60d8d7f34086e7da82d0a8d65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadout:
-  - {fileID: 11400000, guid: 76e8aeb0eb0f4e645b6f3abc23ae8071, type: 2}
-  weaponParent: {fileID: 5132646629558786017}
-  bulletholePrefab: {fileID: 2139695717691191543, guid: 0dde07374f31e7c4696064186b5a2812,
-    type: 3}
-  canBeShot:
-    serializedVersion: 2
-    m_Bits: 823
---- !u!114 &2638249045748558223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7961841290348464860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33ffb2b380b075c419877136b318d7b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 800
-  sprintModifier: 2
-  jumpForce: 650
-  normalCam: {fileID: 327507168}
-  groundDetector: {fileID: 21160855}
-  ground:
-    serializedVersion: 2
-    m_Bits: 256
-  weaponParent: {fileID: 5132646629558786017}
 --- !u!1001 &7115491327354025869
 PrefabInstance:
   m_ObjectHideFlags: 0
