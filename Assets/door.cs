@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class door : MonoBehaviour
 {
+    Animator _animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+        _animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -18,6 +19,6 @@ public class door : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
+        _animator.SetBool("isOpen", true);
     }
 }
