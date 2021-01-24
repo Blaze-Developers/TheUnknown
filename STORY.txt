@@ -4,16 +4,15 @@ Players, enter the Abandoned school with his/her friend, gets hit in the head by
 they find their friend being eaten by a zombie, Player gets freaked out, picks up a mele weapon, and Kills the Zombie, 
 Player then finds out that he/she is on the Top floor of the school building, and then tries to get out of the building while fighting all the Monsters
 
-##MOBS
-1.Vampires
-2.Zombies
-3.WereWolves
-4.Ghouls
-5.Goblins
-6.(CUSTOM MOB)
-7.Skeletons
+
+##Types of Zombies
+
 
 ##BLACK SCREEN
-One day, half of the world fell sick, the whole world started panicking on the onset of this sudden illness.At first,  people passed it off as common cold, but later they realized that it was the worst thing that ever happened to the Human Race
 
-The next morning Humanity experienced an unexpected Solar Eclipse, which brought on the end of the world.
+
+##IDEA_KEYWORDS
+Undercover Research Institute, Failed Mutant experiments using drugs.Player comes home at a stormy night.
+
+##SCRIPT?
+Player arrives from the NAVY
