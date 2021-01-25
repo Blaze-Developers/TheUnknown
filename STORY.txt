@@ -6,7 +6,9 @@ Player then finds out that he/she is on the Top floor of the school building, an
 
 
 ##Types of Zombies
-
+1.Basic
+2.Toxic
+3.Berserk
 
 ##BLACK SCREEN
 
