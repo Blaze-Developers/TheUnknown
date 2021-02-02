@@ -1,0 +1,31 @@
+#The player is a Scientist, who works for in a research centre which has a dark secret, when the player learns of this, 
+ he tries to bring light to the secret but the Head of the Research learns of this matter, and fires him and puts him under serious false accusations, 
+ and got him arrested and sent him to a special jail in a secluded forest, for (x) years, but managed to break out of the jail in (x) months. 
+
+1. The research institute where the player worked , developed the zombie virus and antidote 
+2. The player found out that the people behind the institute were planning to sell the virus as a bioweapon 
+3. The player was put in a isolated jail so he won't be able to tell people about their plan and the antidote 
+4. When the player breaks out of the jail the research institute people send people to kill him so he won't tell the antidote formula to anyone else
+5. The military had quarantine the city and released the virus to show their buyers the amount of destruction caused by it
+
+
+  ***PLAYER***
+1. Base(Hide Out) - city
+2. Max weapons - 3 (2 - guns, 1 - meele) 
+	Guns - pistols, shotguns, assault rifels, flame thrower, rpg
+		(Ammo system, pickups for ammo) (ammo limit)
+	Meele - crowbar, knifes, pipes, sword
+		(Durability??)
+3. Clothing - can be changed in base
+	a. Orange jumpsuit (prision)
+	b. Normal clothes (throughout the game)
+4. Inventory(bag)
+	Health kits(5??), food items(5??), ammo and guns
+
+
+  ***EVENTS***
+1. Jail breakout
+2. Tutorial (on island)
+3. Finds shore 
+4. Player reaches the city
+5. 
