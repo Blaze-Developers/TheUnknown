@@ -19,6 +19,8 @@
 	Pistols: Damage(10-50), speed(no effect), Max_Ammo(70)
 		Desert Eagle: Damage(50), Bullets(7)
 	Shotgun: Damage(70-100), speed(85), Max_Ammo(50)     default speed(100)
+		SPAS-12: Damage(70), Bullets(10)
+		Double-Barrel: Damage(100), Bullets(2)
 		
 		
 
