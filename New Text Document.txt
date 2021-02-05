@@ -16,11 +16,24 @@
 		(Ammo system, pickups for ammo) (ammo limit)
 	Meele - crowbar, knifes, pipes, sword
 		(Durability??)
+	Pistols: Damage(10-50), speed(no effect), Max_Ammo(70)
+		Desert Eagle: Damage(50), Bullets(7)
+	Shotgun: Damage(70-100), speed(85), Max_Ammo(50)     default speed(100)
+		
+		
+
 3. Clothing - can be changed in base
 	a. Orange jumpsuit (prision)
 	b. Normal clothes (throughout the game)
 4. Inventory(bag)
 	Health kits(5??), food items(5??), ammo and guns
+5. Zombies - Types(normal, toxic, athletic, big guy)
+	attracted by sight or sound; physics: diameter based, game: sound based
+	coruch: smaller dia; default: default dia; sprint: bigger dia
+	Damage: Normal -- head(100), chest(20-30), hands and legs(4-5)
+		Toxic -- head(50), chest(5-6), hands and legs(7-8)
+		Athletic -- head(100), chest(4-5), hands and legs(5-6); special damage: meele weapons
+		Big guy -- head(3-4), chest(10),   
 
 
   ***EVENTS***
