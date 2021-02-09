@@ -1,24 +1,72 @@
-####################################################################STORY#######################################################################
+#The player is a Scientist, who works for in a research centre which has a dark secret, when the player learns of this, 
+ he tries to bring light to the secret but the Head of the Research learns of this matter, and fires him and puts him under serious false accusations, 
+ and got him arrested and sent him to a special jail in a secluded forest, for (x) years, but managed to break out of the jail in (x) months. 
 
-Players, enter the Abandoned school with his/her friend, gets hit in the head by someone ,and faints, when he/she wakes up
-they find their friend being eaten by a zombie, Player gets freaked out, picks up a mele weapon, and Kills the Zombie, 
-Player then finds out that he/she is on the Top floor of the school building, and then tries to get out of the building while fighting all the Monsters
-
-
-##Types of Zombies
-1.Basic
-2.Toxic
-3.Berserk
-
-##BLACK SCREEN
+1. The research institute where the player worked , developed the zombie virus and antidote 
+2. The player found out that the people behind the institute were planning to sell the virus as a bioweapon 
+3. The player was put in a isolated jail so he won't be able to tell people about their plan and the antidote 
+4. When the player breaks out of the jail the research institute people send people to kill him so he won't tell the antidote formula to anyone else
+5. The military had quarantine the city and released the virus to show their buyers the amount of destruction caused by it
 
 
-##IDEA_KEYWORDS
-Undercover Research Institute, Failed Mutant experiments using drugs.Player comes home at a stormy night.
+  ***PLAYER***
+1. Base(Hide Out) - city
+2. Max weapons - 3 (2 - guns, 1 - meele) 
+	Guns - pistols, shotguns, assault rifels, flame thrower, rpg
+		(Ammo system, pickups for ammo) (ammo limit)
+	Meele - crowbar, knifes, pipes, sword
+		(Durability??)
+	Pistols: Damage(10-50), speed(no effect), Max_Ammo(70)
+		Desert Eagle: Damage(50), Bullets(7)
+	Shotgun: Damage(70-100), speed(85), Max_Ammo(50)     default speed(100)
+		SPAS-12: Damage(70), Bullets(10)
+		Double-Barrel: Damage(100), Bullets(2)
+		
+		
 
-##SCRIPT
-Player , finally reach the harbour and then find a stange man approaching them, the man was a zombie and tries to bite the player. The player pulls out a knife and kils the zombie. The player went to his MANSION and then clear the MANSION. The player was in the military and had a weapon hidden in the bedroom. The player makes his way to the bedroom and finds the stash of weapons while melee killing the zombies that were in the mansion. The player then loots the mansion and then then takes his car out and starts exploring the city.
+3. Clothing - can be changed in base
+	a. Orange jumpsuit (prision)
+	b. Normal clothes (throughout the game)
+4. Inventory(bag)
+	Health kits(5??), food items(5??), ammo and guns
+5. Zombies - Types(normal, toxic, athletic, big guy)
+	attracted by sight or sound; physics: diameter based, game: sound based
+	coruch: smaller dia; default: default dia; sprint: bigger dia
+	Damage: Normal -- head(100), chest(20-30), hands and legs(4-5)
+		Toxic -- head(50), chest(5-6), hands and legs(7-8)
+		Athletic -- head(100), chest(4-5), hands and legs(5-6); special damage: meele weapons
+		Big guy -- head(3-4), chest(10),   
 
-$$SCENE TRANSISTION$$
 
-Due to a roadblock, the player leaves the car and then proceedes to the city.
+  ***EVENTS***
+1. Jail breakout
+2. Tutorial (on island)
+3. Finds shore 
+4. Player reaches the city 
+
+  ***EVENTS***(reverse)
+1. Player gets the antitiode
+2. defeats villan
+3. clears the military
+4. clears zombies
+5. gets into facility
+
+
+
+ ***SOME OTHER IDEAS***
+1. Villan has stadium full of zomies, a mission to destroy the stadium
+2. zomies are distractions, and make game difficult, main villan is a human
+3. facility will have three ways to enter 1. zombies, straight way, 2 floors full of zombies
+					  2. humans, underground tunnel, stealth can be used, millitary patrol
+					  3. air ducts, easyest way, but difficult to find, one high level zombie guarding entrance
+
+
+
+
+
+
+
+
+
+
+
