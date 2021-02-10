@@ -59,10 +59,15 @@
 3. facility will have three ways to enter 1. zombies, straight way, 2 floors full of zombies
 					  2. humans, underground tunnel, stealth can be used, millitary patrol
 					  3. air ducts, easyest way, but difficult to find, one high level zombie guarding entrance
+4. master key need to enter villan's lab(objective), on entering lab villan releases a mega zombie, at the end zombie kills the villan.
 
 
-
-
+*** TIMELINE ****
+1. player knows the truth(day 0)
+2. player gets arrested(2-3 days)
+3. virus released(1 week)
+4. player breaks out of the jail(3-4 months)
+5. player reaches city
 
 
 
