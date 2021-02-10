@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18319863, g: 0.22885299, b: 0.30647868, a: 1}
+  m_IndirectSpecularColor: {r: 0.1831986, g: 0.22885309, b: 0.30647856, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -458,7 +458,7 @@ PrefabInstance:
     - target: {fileID: 2204339722997346837, guid: d2fec0d01cc269d4589d8498277e0d46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.99
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2204339722997346837, guid: d2fec0d01cc269d4589d8498277e0d46,
         type: 3}
@@ -604,8 +604,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 1057763877}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
+  m_Radius: 0.6
+  m_Speed: 11.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -679,8 +679,8 @@ MonoBehaviour:
   fov: 120
   target: {fileID: 2140319788}
   insight: 0
-  AwakeDistance: 20
-  AttackRange: 15
+  AwakeDistance: 24.09
+  AttackRange: 16.2
   enemyAgent: {fileID: 1057763881}
 --- !u!1 &2049609011
 GameObject:
@@ -722,6 +722,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Name
       value: FPSController
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
