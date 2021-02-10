@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyMovement : MonoBehaviour
+public class Enemyanim : MonoBehaviour
 {
     public float fov = 120f;
     protected Vector3 velocity;
