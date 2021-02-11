@@ -9,11 +9,11 @@ public class EnemyMovement : MonoBehaviour
     public Transform target;
     public bool insight;
     public float AwakeDistance;
-    public float AttackRange = 15; 
+    public float AttackRange = 15;
     public NavMeshAgent enemyAgent;
-    
-    
-    Animator _animator;
+
+
+    [SerializeField] Animator _animator;
 
     private void Update()
     {
@@ -23,19 +23,19 @@ public class EnemyMovement : MonoBehaviour
 
         float playerAngle = Vector3.Angle(transform.forward, playerDirection);
 
-        if(playerAngle <= fov/2)
+        if (playerAngle <= fov / 2)
         {
-            insight = true;           
+            insight = true;
         }
-        if(insight == true && PlayerDistance<= AwakeDistance)
+        if (insight == true && PlayerDistance <= AwakeDistance)
         {
             AwareofPlayer();
         }
-        if(insight == true && PlayerDistance>= AwakeDistance)
+        if (insight == true && PlayerDistance >= AwakeDistance)
         {
             NotawareofPlayer();
         }
-       
+
     }
     private void Start()
     {
@@ -43,7 +43,7 @@ public class EnemyMovement : MonoBehaviour
     }
     void AwareofPlayer()
     {
-        
+
         _animator.SetBool("Chase", true);
         enemyAgent.SetDestination(target.position);
     }
@@ -51,6 +51,28 @@ public class EnemyMovement : MonoBehaviour
     {
         _animator.SetBool("Chase", false);
         enemyAgent.SetDestination(transform.position);
+    }
+    void AttackPlayer()
+    {
+        _animator.SetBool("Attack", true);
+        enemyAgent.SetDestination(target.position);
+    }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            _animator.SetBool("Attack", true);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            _animator.SetBool("Attack", false);
+        }
     }
 
 }
