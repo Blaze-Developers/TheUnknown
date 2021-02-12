@@ -55,7 +55,7 @@ public class EnemyMovement : MonoBehaviour
     void AttackPlayer()
     {
         _animator.SetBool("Attack", true);
-        enemyAgent.SetDestination(target.position);
+        
     }
 
 
@@ -63,7 +63,8 @@ public class EnemyMovement : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            _animator.SetBool("Attack", true);
+            AttackPlayer();
+            NotawareofPlayer();
         }
     }
 
@@ -72,6 +73,7 @@ public class EnemyMovement : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _animator.SetBool("Attack", false);
+            AwareofPlayer();
         }
     }
 
