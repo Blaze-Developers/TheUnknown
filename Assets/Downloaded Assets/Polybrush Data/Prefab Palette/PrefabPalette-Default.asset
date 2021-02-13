@@ -15,7 +15,7 @@ MonoBehaviour:
   prefabs:
   - gameObject: {fileID: 124436, guid: 5d46f571dcc2a664381f8adff96066b2, type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 18.150133
       m_RotationRangeMin: {x: 0, y: 42.711864, z: 0}
       m_RotationRangeMax: {x: 0, y: 85.42373, z: 0}
       m_ScaleRangeMin: {x: 1.016949, y: 1.8079096, z: 1}
@@ -31,7 +31,7 @@ MonoBehaviour:
     name: Grass_Med_A
   - gameObject: {fileID: 181476, guid: b01dcbaa1e9203542b7c5f29656d346e, type: 3}
     settings:
-      m_Strength: 70.54717
+      m_Strength: 87.65818
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -63,7 +63,7 @@ MonoBehaviour:
     name: Grass_Med_C
   - gameObject: {fileID: 151428, guid: eed7118be894efa4fa004434dec6a57c, type: 3}
     settings:
-      m_Strength: 50
+      m_Strength: 84.50403
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
