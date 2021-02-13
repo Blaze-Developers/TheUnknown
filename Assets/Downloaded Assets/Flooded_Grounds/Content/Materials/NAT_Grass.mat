@@ -21,10 +21,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: NAT_Grass
-  m_Shader: {fileID: 4800000, guid: 99134b1f0c27d54469a840832a28fadf, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 66ba65636b783d9459b77bfd294b6e6c,
+    type: 3}
   m_ShaderKeywords: EFFECT_BUMP EFFECT_HUE_VARIATION EFFECT_SUBSURFACE _EMISSION
     _NORMALMAP _WINDQUALITY_PALM
-  m_LightmapFlags: 1
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
@@ -33,6 +34,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_AF97E329:
+        m_Texture: {fileID: 2800000, guid: 91d2eb104975da745b684b83e3cb8553, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 91d2eb104975da745b684b83e3cb8553, type: 3}
         m_Scale: {x: 1, y: 1}
