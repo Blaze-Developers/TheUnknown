@@ -25,6 +25,33 @@
 		
 
 3. Clothing - can be changed in base
+#The player is a Scientist, who works for in a research centre which has a dark secret, when the player learns of this, 
+ he tries to bring light to the secret but the Head of the Research learns of this matter, and fires him and puts him under serious false accusations, 
+ and got him arrested and sent him to a special jail in a secluded forest, for (x) years, but managed to break out of the jail in (x) months. 
+
+1. The research institute where the player worked , developed the zombie virus and antidote 
+2. The player found out that the people behind the institute were planning to sell the virus as a bioweapon 
+3. The player was put in a isolated jail so he won't be able to tell people about their plan and the antidote 
+4. When the player breaks out of the jail the research institute people send people to kill him so he won't tell the antidote formula to anyone else
+5. The military had quarantine the city and released the virus to show their buyers the amount of destruction caused by it
+
+
+  ***PLAYER***
+1. Base(Hide Out) - city
+2. Max weapons - 3 (2 - guns, 1 - meele) 
+	Guns - pistols, shotguns, assault rifels, flame thrower, rpg
+		(Ammo system, pickups for ammo) (ammo limit)
+	Meele - crowbar, knifes, pipes, sword
+		(Durability??)
+	Pistols: Damage(10-50), speed(no effect), Max_Ammo(70)
+		Desert Eagle: Damage(50), Bullets(7)
+	Shotgun: Damage(70-100), speed(85), Max_Ammo(50)     default speed(100)
+		SPAS-12: Damage(70), Bullets(10)
+		Double-Barrel: Damage(100), Bullets(2)
+		
+		
+
+3. Clothing - can be changed in base
 	a. Orange jumpsuit (prision)
 	b. Normal clothes (throughout the game)
 4. Inventory(bag)
@@ -35,7 +62,7 @@
 	Damage: Normal -- head(100), chest(20-30), hands and legs(4-5)
 		Toxic -- head(50), chest(5-6), hands and legs(7-8)
 		Athletic -- head(100), chest(4-5), hands and legs(5-6); special damage: meele weapons
-		Big guy -- head(3-4), chest(10),   
+		Big guy -- head(3-4), chest(10)  
 
 
   ***EVENTS***
@@ -43,6 +70,14 @@
 2. Tutorial (on island)
 3. Finds shore 
 4. Player reaches the city 
+5. player will clear his first base(small building)
+6. sleep through night
+7. explore the surrounding(objective)
+8. player rescues 4 survivours and brings them to his base
+9. survivour's relative rescue(new athletic zombie discovered)
+10. big hoard of zombies approaching 
+11. 
+ 
 
   ***EVENTS***(reverse)
 1. Player gets the antitiode
@@ -60,6 +95,8 @@
 					  2. humans, underground tunnel, stealth can be used, millitary patrol
 					  3. air ducts, easyest way, but difficult to find, one high level zombie guarding entrance
 4. master key need to enter villan's lab(objective), on entering lab villan releases a mega zombie, at the end zombie kills the villan.
+5. heath kits will take 10 sec to apply and player will not be able to move, unlimited heath kits and food items
+6. Zombie's spotting dia will increase at night and players visibilty will be lowered.
 
 
 *** TIMELINE ****
@@ -68,7 +105,6 @@
 3. virus released(1 week)
 4. player breaks out of the jail(3-4 months)
 5. player reaches city
-
 
 
 
