@@ -108,7 +108,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_4FB821A8: 0.06
-    - Vector1_C3B2FC9E: 0.3
+    - Vector1_C3B2FC9E: 0.05
     - _AlphaClip: 0
     - _BillboardKwToggle: 0
     - _BillboardShadowFade: 0.5
