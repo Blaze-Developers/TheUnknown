@@ -39,6 +39,7 @@ public class SC_NPCEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.DrawRay(firePoint.position, firePoint.forward, Color.green);
         if (agent.remainingDistance - attackDistance < 0.01f)
         {
             if (Time.time > nextAttackTime)
