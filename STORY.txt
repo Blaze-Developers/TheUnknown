@@ -9,6 +9,9 @@
 5. The military had quarantine the city and released the virus to show their buyers the amount of destruction caused by it
 
 
+  ***MAP***
+map areas: island, city, countryside(forest), reaserch institute
+
   ***PLAYER***
 1. Base(Hide Out) - city
 2. Max weapons - 3 (2 - guns, 1 - meele) 
@@ -49,8 +52,6 @@
 		SPAS-12: Damage(70), Bullets(10)
 		Double-Barrel: Damage(100), Bullets(2)
 		
-		
-
 3. Clothing - can be changed in base
 	a. Orange jumpsuit (prision)
 	b. Normal clothes (throughout the game)
@@ -64,7 +65,7 @@
 		Athletic -- head(100), chest(4-5), hands and legs(5-6); special damage: meele weapons
 		Big guy -- head(3-4), chest(10)  
 
-
+  
   ***EVENTS***
 1. Jail breakout
 2. Tutorial (on island)
@@ -73,9 +74,9 @@
 5. player will clear his first base(small building)
 6. sleep through night
 7. explore the surrounding(objective)
-8. player rescues 4 survivours and brings them to his base
-9. survivour's relative rescue(new athletic zombie discovered)
-10. big hoard of zombies approaching 
+8. player rescues 4 survivours and brings them to his base(survivours trying to get to a community)
+9. player takes the survivours to the community(athletic zombie discovered)
+10. 
 11. 
  
 
@@ -97,6 +98,7 @@
 4. master key need to enter villan's lab(objective), on entering lab villan releases a mega zombie, at the end zombie kills the villan.
 5. heath kits will take 10 sec to apply and player will not be able to move, unlimited heath kits and food items
 6. Zombie's spotting dia will increase at night and players visibilty will be lowered.
+7. fucked up storyline
 
 
 *** TIMELINE ****
