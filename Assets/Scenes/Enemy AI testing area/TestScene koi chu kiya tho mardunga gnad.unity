@@ -587,7 +587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ead80dd6a22e90428088cf32d744954, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 6329202416201895792, guid: e7ef8599c42063a4499339496985c980,
+  enemyPrefab: {fileID: 6290848248419619307, guid: cf3a499fd111c04469470656a1394947,
     type: 3}
   player: {fileID: 389797505}
   crosshairTexture: {fileID: 2800000, guid: 16943c56ee97abd4b85999fdcc9fe194, type: 3}
