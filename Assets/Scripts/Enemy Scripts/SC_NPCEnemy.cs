@@ -12,7 +12,7 @@ public class SC_NPCEnemy : MonoBehaviour
     public float movementSpeed = 4f;
     public float npcHP = 100;
     //How much damage will npc deal to the player
-    public float npcDamage = 5;
+    public float npcDamage = 1;
     public float attackRate = 0.5f;
     public Transform firePoint;
     public GameObject npcDeadPrefab;
@@ -46,7 +46,7 @@ public class SC_NPCEnemy : MonoBehaviour
             {
                 nextAttackTime = Time.time + attackRate;
 
-                //Attack
+                //Attack(some changes needed)
                 RaycastHit hit;
                 if (Physics.Raycast(firePoint.position, firePoint.forward, out hit, attackDistance))
                 {
@@ -62,7 +62,7 @@ public class SC_NPCEnemy : MonoBehaviour
         }
         //Move towardst he player
         agent.destination = playerTransform.position;
-        //Always look at player
+        //Always look at player(Not Working properly)
         transform.LookAt(new Vector3(playerTransform.transform.position.x, transform.position.y, playerTransform.position.z));
         //Gradually reduce rigidbody velocity if the force was applied by the bullet
         r.velocity *= 0.99f;
