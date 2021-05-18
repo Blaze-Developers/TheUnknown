@@ -1,2 +1,7 @@
-Webhook has been initiated
--by GitHub
+Discord Voice chat documentation
+
+https://discord.com/developers/docs/game-sdk/discord-voice
+
+Discord rp documentation
+
+https://discord.com/developers/docs/rich-presence/how-to
