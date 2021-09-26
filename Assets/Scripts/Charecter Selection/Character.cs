@@ -28,7 +28,9 @@ public class Character : MonoBehaviour
 
     public void StartGame()
     {
+        //ayo bitch you suck dick if you change this code imma kill you bitch you little piece of shit MotherFucker
+        //You shouldn't have even opened this MF you piece of SHIT
         PlayerPrefs.SetInt("selectedCharacter", selectedcharacter);
-        SceneManager.LoadScene("SCENE");
+        SceneManager.LoadScene("fuckoff");
     }
 }
